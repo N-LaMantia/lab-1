@@ -90,8 +90,12 @@ nav ul li:hover {
 footer {
     background-color: #222;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -106,10 +110,9 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    gap: 16px;
+    gap: 6px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     list-style: none;
 }
 
@@ -121,6 +124,14 @@ footer p {
     width: 32px;
     border-radius: 16px;
     justify-content: center;
+}
+
+.social-icons li a img {
+    display: block;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .social-icons li a:hover {
