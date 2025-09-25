@@ -1,1 +1,40 @@
 /* CS465 Lab1 style file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+nav {
+    background-color: #222;
+    color: white;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    list-style: none;
+    height: 60px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
